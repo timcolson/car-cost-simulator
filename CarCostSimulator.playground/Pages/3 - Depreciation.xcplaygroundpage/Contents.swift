@@ -1,8 +1,8 @@
 //: [Previous](@previous)
 /*:
- 
  ## Depreciation
 
+ ![Rusted Car](auto-3368094_1920_lq.jpg)
  The concept of _depreciation_ means that the value of an asset, like a car, tends to go down with the passage of time. This can be due to use of the asset that causes "wear and tear" or newer alternatives are available.
  
  ### Simple Depreciation Model

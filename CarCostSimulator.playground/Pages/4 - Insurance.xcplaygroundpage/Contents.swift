@@ -1,13 +1,13 @@
 //: [Previous](@previous)
 /*:
  ## Insurance
- 
- In the US, we can't drive cars without insurance. If you have a loan, the lender (Bank, Credit Union) will require full coverage which is more expensive.
+ ![Crash Test](crash-test-1620591_1920_crop.jpg)
+ In the US, we can't drive cars without insurance. Age factors into the cost. And, if you have a loan for the car, the lender (Bank, Credit Union) will require full coverage, which is usually more expensive.
 
  * Experiment:
    Write a function to return a cost of insurance (Double):
    - Provide two rates, based on driver age (under 21, or over)
-   - Add 20% more for a "truck" type
+   - Add 20% more for a "truck" type of vehicle.
 
  */
 

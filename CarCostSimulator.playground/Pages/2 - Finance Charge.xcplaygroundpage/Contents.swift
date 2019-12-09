@@ -2,7 +2,7 @@
 /*:
  ## Finance Charges
  
- ![Finance]()
+ ![Finance](accounting-761599_1280_lq.jpg)
  
  When you take out a car loan, the bank charges fees on the amount of the loan every month. You pay the same amount each month, but some pays the fees and some pays the __principal__ of the loan.
  
