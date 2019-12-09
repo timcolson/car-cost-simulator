@@ -27,8 +27,8 @@ import XCTest
 public class FuelTests: XCTestCase {
     // Remember to run the test function, uncomment the entire function.
 //    func testFuelCost() {
-//        XCTAssertEqual(26.5, calcFuelCost(mpg:10, milesPerYear: 100))
-//        XCTAssertEqual(13.25, calcFuelCost(mpg:20, milesPerYear: 100))
+//        XCTAssertEqual(26.5, calcFuelCost(mpg:10, milesDrivenPerYear: 100))
+//        XCTAssertEqual(13.25, calcFuelCost(mpg:20, milesDrivenPerYear: 100))
 //    }
     
 }
