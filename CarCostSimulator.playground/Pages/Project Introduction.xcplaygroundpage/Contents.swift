@@ -2,7 +2,7 @@
 
 /*:
  ![Car](mustang-2338377_1920_lq.jpg)
- Let's use the skills we've learned to simulate **cost of ownerhip** of a vehicle!
+ Let's use the skills we've learned to simulate **cost of ownership** of a vehicle!
  
  There are many expenses to consider, but let's not get too bogged down in details. Our primary goal is to **write code** with statements, functions, conditions (if/else), loops, variables, constants, print statements and String interpolation.
 
