@@ -21,7 +21,7 @@ Fuel is a large part of the cost of ownership. Sure, we may all be driving elect
 
 
 
-/*: [Next](@next)
+/*:
 
  ### Resources
  [AAA Gas Prices](https://gasprices.aaa.com/) - note that even though AZ is higher than many states, the low fuel tax in Tucson means gas here is generally less expensive.
@@ -40,3 +40,6 @@ public class FuelTests: XCTestCase {
 
 
 FuelTests.defaultTestSuite.run()
+
+
+//: [Next - Finance Charge](@next)

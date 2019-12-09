@@ -13,4 +13,4 @@
  */
 // func calcMaintAndRepair()
 
-//: [Next](@next)
+//: [Next - Tires](@next)

@@ -17,8 +17,13 @@
  
 */
 
+let inputScreenDone = false
+let detailedResultsScreenDone = false
+let instructionsScreenDone = false
 
+if inputScreenDone && detailedResultsScreenDone && instructionsScreenDone {
+    print("Woot! All of the mockups are done!")
+} else {
+    print("Still need to create mockup screens.")
+}
 
-
-
-//: [Next](@next)

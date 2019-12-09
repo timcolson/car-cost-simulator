@@ -15,4 +15,9 @@
 
 
 
-//: [Next](@next)
+//: [Next - Maintenance & Repair](@next)
+//: - - -
+/*:
+ ## Resources
+ * [Average car insurance rates by age](https://www.carinsurance.com/average-rates-by-age.aspx) -- source is carinsurance.com; data not guranteed accurate, but seems reasonable.
+ */

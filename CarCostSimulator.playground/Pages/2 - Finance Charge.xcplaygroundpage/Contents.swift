@@ -2,6 +2,8 @@
 /*:
  ## Finance Charges
  
+ ![Finance]()
+ 
  When you take out a car loan, the bank charges fees on the amount of the loan every month. You pay the same amount each month, but some pays the fees and some pays the __principal__ of the loan.
  
  Finance charges are higher in the first years because the amount of the loan is larger. As you pay down the loan, the fees go down too.
@@ -38,7 +40,7 @@ For example, $10,000 loan would incur $1,000 in finance charges over five year l
 
 
 /*:
- [Next](@next)
+ [Next - Depreciation](@next)
 - - - -
  ### Resources
 *  [Car Loan Calculations - Google Sheet](https://docs.google.com/spreadsheets/d/1Aopi2ZBmdpu8eraZSJSoNkb7lQOLtdE1CWdmOnJfvHc/edit?usp=sharing) - shows calculations for a monthly payment and a month by monthy payment amortization table (i.e. shows the fees for each month)

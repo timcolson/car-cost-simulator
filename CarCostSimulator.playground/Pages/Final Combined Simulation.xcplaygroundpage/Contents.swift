@@ -64,4 +64,4 @@ func runSimulation(years: Int, carName:String, carType:String, price carPrice:Do
 
 let totalCost = runSimulation(years: 10, carName:"Yeti", carType:"car", price:27_000.00, mpg:22.3, milesPerYear:10_000.00)
 
-//: [Next](@next)
+//: [Next - App Design Mockups](@next)

@@ -35,7 +35,7 @@
 // func calcVLT
 
 
-//: [Next](@next)
+//: [Next - Putting it all together...](@next)
 
 /*:
  ## Resources
