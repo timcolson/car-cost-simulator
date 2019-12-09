@@ -8,7 +8,7 @@
  
  Finance charges are higher in the first years because the amount of the loan is larger. As you pay down the loan, the fees go down too.
  
- You are welcome to calcualte the payment, and amount of finance charges, but it can add a lot of complexity.
+ You are welcome to calculate the payment and amount of finance charges, but it can add complexity.
  
  Here is an easier way to simulate the finance charges for a five year loan:
  
@@ -34,8 +34,22 @@ For example, $10,000 loan would incur $1,000 in finance charges over five year l
 
 
 
+//:## Automated Tests
 
+import XCTest
+public class FinanceTests: XCTestCase {
+    
+    //    func testCalcFinanceCharges() {
+    //        XCTAssertEqual(350, calcFinanceCharges(carPrice: 10_000, year: 1))
+    //        XCTAssertEqual(300, calcFinanceCharges(carPrice: 10_000, year: 2))
+    //        XCTAssertEqual(300, calcFinanceCharges(carPrice: 15_000, year: 3))
+    //        XCTAssertEqual(200, calcFinanceCharges(carPrice: 20_000, year: 4))
+    //        XCTAssertEqual(150, calcFinanceCharges(carPrice: 30_000, year: 5))
+    //    }
+    
+}
 
+FinanceTests.defaultTestSuite.run()
 
 
 

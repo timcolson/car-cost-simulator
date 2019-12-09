@@ -28,11 +28,36 @@
 */
 
 
-// Tests
+// Examples
 //depreciationPercent(year: 1) // 0.20
 //calcDepreciation(carPrice: 30_000, yearsOfDepreciation: 1) // 6,000.00
 //calcDepreciation(carPrice: 30_000, yearsOfDepreciation: 2) // 2,400.00
 //calcDepreciation(carPrice: 30_000, yearsOfDepreciation: 3) // 2,160.00
+
+
+//: ## Automated Tests
+import XCTest
+public class DepreciationTests: XCTestCase {
+    
+//    func testDepreciationPercent() {
+//        XCTAssertEqual(0.20, depreciationPercent(year:1))
+//        XCTAssertEqual(0.10, depreciationPercent(year:2))
+//        XCTAssertEqual(0.10, depreciationPercent(year:3))
+//        XCTAssertEqual(0.10, depreciationPercent(year:4))
+//        XCTAssertEqual(0.05, depreciationPercent(year:5))
+//        XCTAssertEqual(0.03, depreciationPercent(year:6))
+//        XCTAssertEqual(0.03, depreciationPercent(year:7))
+//        XCTAssertEqual(0.03, depreciationPercent(year:70))
+//    }
+//
+//    func testCalcDepreciation() {
+//        XCTAssertEqual(6_000.00, calcDepreciation(carPrice: 30_000.00, yearsOfDepreciation: 1))
+//        XCTAssertEqual(2_400.00, calcDepreciation(carPrice: 30_000.00, yearsOfDepreciation: 2))
+//        XCTAssertEqual(2_160.00, calcDepreciation(carPrice: 30_000.00, yearsOfDepreciation: 3))
+//    }
+}
+
+DepreciationTests.defaultTestSuite.run()
 
 
 

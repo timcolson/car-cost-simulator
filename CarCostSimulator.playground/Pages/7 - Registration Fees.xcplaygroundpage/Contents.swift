@@ -22,7 +22,7 @@
 
    1. Parameters
      * **carPrice**: original MSRP for the vehicle (Double)
-     * **year**: (Double) what year to calculte
+     * **year**: (Int) what year to calculate
    2. Return cost as a Double, based AZ DOT fees
  
  **TIP**: this fee calculation is similar to Depreciation. The difference here is that **every year** the value of the vehicle is reduced by the same 16.25%. Use a loop again; start at year 1, stop at the year you want to get the fee. Every turn of the loop, reduce the value by 16.25%. 
@@ -32,13 +32,34 @@
 
 // func calcRegFees
 
+
+
+
 // func calcVLT
 
 
-//: [Next - Putting it all together...](@next)
 
+
+
+
+//: ## Automated Tests
+import XCTest
+public class VLTandFeesTests: XCTestCase {
+//    func testCalcRegFees() {
+//        XCTAssertEqual(12.00, calcRegFees())
+//    }
+//
+//    func testCalcVLT() {
+//        XCTAssertEqual(420.00, calcVLT(carPrice: 25_000, year: 1, used: false))
+//        XCTAssertEqual(363.06, calcVLT(carPrice: 25_000, year: 2, used: false)) // whm gets 351.75 for this...
+//    }
+}
+
+VLTandFeesTests.defaultTestSuite.run()
+
+//: [Next - Putting it all together...](@next)
 /*:
- ## Resources
+ ### Resources
  
  * [AZ Registration Fees](https://servicearizona.com/content/SAZHomeFees) - all the details about car registration fees
  */

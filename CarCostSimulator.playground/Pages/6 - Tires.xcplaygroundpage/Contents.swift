@@ -2,6 +2,8 @@
 /*:
  ## Tires
 
+ ![Tires](tire-replace-mature-1749597_1920.jpg)
+ 
  Tires need to be replaced based on miles driven. The simulator needs to determine if the miles driven goes over the number of miles you expect from the tires. Let's replace tires every 50K miles.
  
  Break this into two functions. Write one funciton called replaceTires that determines if the tires need to be replaced. Write a second  function calcTireCost that calls replacetires() to see if tires are needed then calculates and returns the cost as a Double.
@@ -32,9 +34,23 @@ func replaceTires(currentMiles:  Int, milesDrivenThisYear: Int) -> Bool {
 }
 
 // func calcTireCost (...) {
-// Call replaceTires() see if the tires even need to be replaced.
+    // Call replaceTires() see if the tires even need to be replaced.
 // }
 
+
+//: ## Automated Tests
+import XCTest
+public class TireTests: XCTestCase {
+    
+    //    func testReplaceTires() {
+    //        XCTAssertFalse(replaceTires(currentMiles:  40_000, milesDrivenThisYear: 5_000))
+    //        XCTAssertTrue(replaceTires(currentMiles:  40_000, milesDrivenThisYear: 15_000))
+    //        XCTAssertFalse(replaceTires(currentMiles:  99_999, milesDrivenThisYear: 0))
+    //        XCTAssertTrue(replaceTires(currentMiles:  99_999, milesDrivenThisYear: 2))
+    //    }
+}
+
+TireTests.defaultTestSuite.run()
 
 
 //: [Next - Registration & Fees](@next)

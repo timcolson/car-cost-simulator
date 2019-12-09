@@ -13,11 +13,25 @@
 
 // func calcInsurance
 
+//: ## Automated Tests
+
+import XCTest
+public class InsuranceTests: XCTestCase {
+//    func testCalcInsurance() {
+//        XCTAssertEqual(400.00, calcInsurance(carPrice: 20_000, driverAge: 25, vehicleType: "car"))
+//        XCTAssertEqual(600.00, calcInsurance(carPrice: 15_000, driverAge: 17, vehicleType: "car"))
+//        XCTAssertEqual(1000.00, calcInsurance(carPrice: 25_000, driverAge: 20, vehicleType: "suv"))
+//        XCTAssertEqual(1440.00, calcInsurance(carPrice: 30_000, driverAge: 20, vehicleType: "truck"))
+//    }
+}
+
+InsuranceTests.defaultTestSuite.run()
+
 
 
 //: [Next - Maintenance & Repair](@next)
 //: - - -
 /*:
- ## Resources
+ ### Resources
  * [Average car insurance rates by age](https://www.carinsurance.com/average-rates-by-age.aspx) -- source is carinsurance.com; data not guranteed accurate, but seems reasonable.
  */

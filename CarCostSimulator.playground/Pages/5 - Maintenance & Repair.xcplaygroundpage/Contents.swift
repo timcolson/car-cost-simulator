@@ -13,4 +13,26 @@
  */
 // func calcMaintAndRepair()
 
-//: [Next - Tires](@next)
+
+//: ## Automated Tests
+
+
+import XCTest
+public class MaintAndRepairTests: XCTestCase {
+//    func testMaintAndRepair() {
+//        XCTAssertEqual(100.00, calcMaintAndRepair(year: 1))
+//        XCTAssertEqual(100.00, calcMaintAndRepair(year: 2))
+//        XCTAssertEqual(100.00, calcMaintAndRepair(year: 3))
+//        XCTAssertEqual(1100.00, calcMaintAndRepair(year: 4))
+//        XCTAssertEqual(1100.00, calcMaintAndRepair(year: 5))
+//        XCTAssertEqual(1100.00, calcMaintAndRepair(year: 6))
+//        XCTAssertEqual(1100.00, calcMaintAndRepair(year: 7))
+//        XCTAssertEqual(2100.00, calcMaintAndRepair(year: 8))
+//        XCTAssertEqual(2100.00, calcMaintAndRepair(year: 9))
+//    }
+}
+
+MaintAndRepairTests.defaultTestSuite.run()
+
+
+//: [Next - Tires Tires Tires!](@next)
