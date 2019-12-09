@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='raw'>
+    <pages>
+        <page name='Project Introduction'/>
+        <page name='1 - Fuel Cost'/>
+        <page name='2 - Finance Charge'/>
+        <page name='3 - Depreciation'/>
+        <page name='4 - Insurance'/>
+        <page name='5 - Maintenance &amp; Repair'/>
+        <page name='6 - Tires'/>
+        <page name='7 - Registration Fees'/>
+        <page name='Final Combined Simulation'/>
+        <page name='App Design - App Mockup'/>
+    </pages>
+</playground>
