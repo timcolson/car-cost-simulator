@@ -37,6 +37,38 @@ func replaceTires(currentMiles:  Int, milesDrivenThisYear: Int) -> Bool {
     // Call replaceTires() see if the tires even need to be replaced.
 // }
 
+/*:
+ ## Logical AND operator &&
+ You may have noticed above an unusual symbol: &&. That is a pair of _ampersands_ which we read as "AND" is called the [Logical AND Operator](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html) in Swift. This operator helps us compare multiple conitions at once.
+ 
+ Check out the example below that classifies an amplifier:
+ 
+     // Is this guitar amplifier standard, awesome, or damaged?
+     let maxVolume = 11
+ 
+     if maxVolume > 0 && maxVolume <= 10 {
+       print("Standard Amp")
+     } else if maxVolume == 11 {
+        print("Awesome! This Amp goes to 11!")       // prints out "This Amp goes to 11!"
+     } else {
+        print("Damaged Amp!")
+     }
+ 
+ */
+
+// Make the amp awesome!
+let maxVolume = -1
+
+if maxVolume > 0 && maxVolume <= 10 {
+    print("Standard Amp")
+} else if maxVolume == 11 {
+    print("Awesome! This Amp goes to 11!")
+} else {
+    print("Damaged Amp!")
+}
+
+
+
 
 //: ## Automated Tests
 import XCTest
@@ -54,3 +86,10 @@ TireTests.defaultTestSuite.run()
 
 
 //: [Next - Registration & Fees](@next)
+
+//: - - -
+/*:
+ ### Resources
+ * [Logical AND Operator](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html) - look for && in the document to find the description of the Logical AND Operator
+
+ */
