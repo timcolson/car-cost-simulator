@@ -39,7 +39,7 @@ func replaceTires(currentMiles:  Int, milesDrivenThisYear: Int) -> Bool {
 
 /*:
  ## Logical AND operator &&
- You may have noticed above an unusual symbol: &&. That is a pair of _ampersands_ which we read as "AND" is called the [Logical AND Operator](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html) in Swift. This operator helps us compare multiple conitions at once.
+ You may have noticed above a new symbol: &&. That is a pair of _ampersands_ which we read as "AND" is called the [Logical AND Operator](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html) in Swift. This operator helps us evaluate multiple conditions at once. All of them must evaluate to TRUE for the expression to be TRUE.
  
  Check out the example below that classifies an amplifier:
  
